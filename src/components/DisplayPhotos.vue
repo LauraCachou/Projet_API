@@ -138,6 +138,7 @@
 
   .filters button{
     width: 145px;
+    height: 46px;
   }
 
   .refineSearch{
