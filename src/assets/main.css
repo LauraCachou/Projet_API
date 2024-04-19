@@ -34,13 +34,13 @@ button{
   font-weight: 500;
   border-style: none;
   gap: 20px;
+  transition: transform 0.5s ease-in-out;
 }
 
 button:hover{
   background: white;
   border: 2px solid #C8A3E0;
   color: #C8A3E0;
-
 }
 
 a {
@@ -75,5 +75,17 @@ footer{
   place-content: center;
   margin-top: 40px;
   bottom: auto;
+}
+
+.underline {
+  background-image: linear-gradient(90deg, whitesmoke 25%, #C8A3E0 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.35em;
+  background-position: bottom;
+  transition: background-size 0.25s ease-in;
+}
+
+.underline:hover {
+  background-size: 100% 88%;
 }
 

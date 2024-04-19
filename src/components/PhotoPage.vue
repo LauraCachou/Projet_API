@@ -5,7 +5,7 @@
         <img :src="photo.urls.regular" :alt="photo.alt_description">
         <div class="details">
           <p>Title: {{ photo.description ? photo.description : 'Unknown title' }}</p>
-          <p>Published at: {{ photo.created_at }}.</p>
+          <p>Published at: {{ photo.created_at ? photo.created_at.slice(0, 10) : 'Unknown date' }}</p>
           <p>By: {{ photo.user ? photo.user : "Unknown author" }}</p>
           <p>Instagram Username: @{{ photo.instagram_username ? photo.instagram_username : 'Unknown account' }}</p>
           <p>Format: {{ photo.width ? photo.width:"Unknown format"}} x {{ photo.height ? photo.height:"Unknown format"}}</p>
