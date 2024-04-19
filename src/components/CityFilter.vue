@@ -21,7 +21,7 @@
           { label: 'Paris', value: 'Paris' },
           { label: 'London', value: 'London' },
           { label: 'New-York', value: 'New-York' },
-          { label: 'Japan', value: 'Japan' },
+          { label: 'Tokyo', value: 'Tokyo' },
           { label: 'Shanghai', value: 'Shanghai' }
         ],
         filteredPhotos: []
